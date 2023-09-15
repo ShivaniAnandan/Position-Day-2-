@@ -1,0 +1,86 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    padding: 10px;
+    margin: 10px auto;
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 14px;
+}
+.card-img{
+    position: relative;
+}
+.tag{
+    background-color:#266FEF;
+    color: white;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    font-size: 20px;
+    position: absolute;
+    left:0;
+    bottom: 1.5rem;
+}
+.time{
+    position: absolute;
+    background-color: #F7F9F9;
+    color: rgb(54,54,54);
+    display: inline-block;
+    bottom: 1.5rem;
+    right: 1rem;
+    padding: 0.3rem;
+    border-radius: 4px;
+}
+.border{
+    border-bottom: 1px solid lightgray;
+    margin-top: 25px;
+}
+.card h2{
+    margin: 5px;
+    color: #1C1C1C;
+}
+.card p{
+    margin: 10px;
+}
+.card>p{
+    color: #757575;
+}
+.footer{
+    border-radius: 2px;
+    box-sizing: border-box;
+    
+}
+.footer span{
+    display: flex;
+    width: 70px;
+}
+.span{
+    margin-top: 20px;
+}
+
+.up{
+    background-color: #F4AD75;
+    font-size:x-small;
+    font-weight: bold;
+    display: inline;
+    border-radius: 3px;
+    color: #2B1514;
+}
+.down{
+    background-color: #64B7BC;
+    font-size: small;
+    color:#BEE4EA;
+    display: inline;
+    margin-top: 0;
+    border-radius: 3px;
+}
+.max{
+    display: flex;
+}
+.max p{
+    color:#8D8D8D;
+}
