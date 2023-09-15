@@ -1,31 +1,26 @@
 .profile{
+    margin: 10px auto;
+    width: 400px;
     position: relative;
-    width: 403px;
-    margin: 30px auto;
-    border: 2px solid whitesmoke;
-    border-radius: 12px;
-    }
-    .profile-bg{
+}
+.profile-bg{
     width: 100%;
-    height: 20vh;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
-    }
-    .user{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.profile-header{
     position: absolute;
-    height: 80px;
-    width: 80px;
+}
+.user{
     border-radius: 50%;
-    left: 168px;
-    bottom: 0;
-    margin-bottom: -40px;
-    border: 2px solid white;
-    }
-    .content{
+    position: absolute;
+    left: 160px;
+    bottom: -30px;
+}
+.content{
+    margin: 20px;
     text-align: center;
-    margin: 30px;
-    }
-    .profileheader{
-    position: relative;
-    }
-
+    position: absolute;
+    top:100px;
+    left: 50px;
+}
