@@ -35,6 +35,16 @@ body{
     padding: 0.3rem;
     border-radius: 4px;
 }
+.promoted{
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    color: #C8B1B8;
+    background-color: #986E7C;
+    border-radius: 4px;
+    padding: 0px 5px;
+    opacity: 0.8;
+}
 .border{
     border-bottom: 1px solid lightgray;
     margin-top: 25px;
@@ -49,19 +59,11 @@ body{
 .card>p{
     color: #757575;
 }
-.footer{
-    border-radius: 2px;
-    box-sizing: border-box;
-    
-}
-.footer span{
-    display: flex;
-    width: 70px;
-}
-.span{
-    margin-top: 20px;
-}
 
+
+.footer{
+    margin-top: 15px;
+}
 .up{
     background-color: #F4AD75;
     font-size:x-small;
